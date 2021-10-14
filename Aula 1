@@ -1,0 +1,49 @@
+nome=str(input("Digite o seu nome: \n"))
+idade=int(input("Digite a sua idade: \n"))
+peso=float(input("Digite o seu peso: \n"))
+sexo=str(input("Digite o seu sexo: \n"))
+
+print (f"\nNone: {nome} \nIdade: {idade} \nPeso: {peso} \nsexo: {sexo}\n"  )
+
+
+kms=float (input("Quantos kms você rodou ?: "))
+preço= 4.90 + (kms*3)
+print (f"você rodou: {kms} kms \nE vai pagar: {preço}")
+
+n=int(input('Qual tabuada você deseja saber?\n'))
+
+
+print(f'{n} x 1 = {n*1}')
+
+print(f'{n} x 2 = {n*2}')
+
+print(f'{n} x 3 = {n*3}')
+
+print(f'{n} x 4 = {n*4}')
+
+print(f'{n} x 5 = {n*5}')
+
+print(f'{n} x 6 = {n*6}')
+
+print(f'{n} x 7 = {n*7}')
+
+print(f'{n} x 8 = {n*8}')
+
+print(f'{n} x 9 = {n*9}')
+
+print(f'{n} x 10 = {n*10}')
+
+import math
+n=float(input("Escolha um número: "))
+
+print (f"A raiz cubica é: {math.pow(n,1/3):.2f} ")
+print (f"A raiz quadrada é: {math.sqrt(n):.2f} ")
+print (f"O número ao quadrado é: {math.pow(n,2):.2f} ")
+print (f"A ao cubo é: {n**3:.2f} ")
+
+peso=float(input("Quantos quilos vc trouxe? : "))
+
+if peso>50:
+  excesso = peso-50
+  multa = excesso *4.0
+  print(f"Você excedeu em {excesso}KG \nE terá que pagar a multa de : R$ {multa:.2f}")
